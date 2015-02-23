@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>OpenThis Extension Options</title>
+</head>
+
+<body>
+    <div id="pagewrap" style="width:100%;">
+        <div id="contentwrap" style="width:600px;margin:auto;margin-top:75px;">
+            <table width="600px">
+                <tr>
+                    <td>
+                        Service Now Url:
+                    </td>
+                    <td>
+                        <input type="text" id="SNURL" size="52" />
+                    </td>
+                    <td>
+                        <button id="save">Save Option</button>
+                    </td>
+                    <td width="40px">
+                        <div id="status" style="font-size:13px;color:gray;"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align:center;">
+                        <p style="font-size:13px;color:gray;">This is the URL to your Service Now instance; the one used to access the homepage and which all links will begin with. Include the "http://" or "https://"
+                            <br />Example: https://mycompany.service-now.com/
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="options.js"></script>
+</body>
+
+</html>
